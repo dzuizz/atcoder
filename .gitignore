@@ -1,5 +1,6 @@
 .cph
+.DS_Store
+.gitignore
 .vscode
 *.bin
 *.prob
-.gitignore
