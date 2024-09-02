@@ -1,6 +1,11 @@
-.cph
+# OS specific files
 .DS_Store
-.gitignore
+
+# IDE specific files
 .vscode
-*.bin
-*.prob
+.idea
+
+# Sample IO testcases
+*.in
+*.out
+*.txt
