@@ -5,7 +5,14 @@
 .vscode
 .idea
 
+# CPH extension
+.cph
+
 # Sample IO testcases
 *.in
 *.out
 *.txt
+
+# Compiled files
+*.bin
+*.exe
