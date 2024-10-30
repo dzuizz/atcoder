@@ -15,3 +15,4 @@ int main() {
   ans += sqrt((long long)x*x + (long long)y*y);
   std::cout << std::fixed << std::setprecision(6) << ans << '\n';
 }
+
