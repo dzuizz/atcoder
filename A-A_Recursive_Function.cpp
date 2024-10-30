@@ -1,27 +1,10 @@
-#include <algorithm>
+// ABC 273
+
 #include <iostream>
-#include <cstring>
-#include <vector>
-#include <map>
-#include <set>
-#include <queue>
-using namespace std;
-
-typedef long long ll;
-typedef pair<int, int> ii;
-
-#define all(x) x.begin(), x.end()
-#define sz(x) (int) x.size()
-#define pb push_back
-#define fi first
-#define se second
-
-int f(int n) {
-    if (n == 0) return 1;
-    return n * f(n - 1);
-}
 
 int main() {
-    int n; cin >> n;
-    cout << f(n) << '\n';
+  int n, ans=1; std::cin >> n;
+  for (size_t i=1; i<=n; ++i) ans *= i;
+  std::cout << ans << '\n';
 }
+
