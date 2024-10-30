@@ -16,3 +16,6 @@
 # Compiled files
 *.bin
 *.exe
+
+# contest folder
+contest/
