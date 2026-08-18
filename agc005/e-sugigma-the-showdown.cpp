@@ -16,7 +16,7 @@ int lca(vector<vector<int>>&g,vector<int>&dep,vector<vector<int>>&pa,int a,int b
 
   if(a==b) return a;
   for(int i=LOG-1;i>=0;--i){
-    if(pa[a][i]!=pa[b][i])
+    if(pa[i][a]!=pa[i][b])
       a=pa[i][a],
       b=pa[i][b];
   }
